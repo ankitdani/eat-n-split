@@ -140,7 +140,7 @@ function FormAddFriend({ onAddFriend }) {
     const id = crypto.randomUUID();
 
     const newFriend = {
-      friendName,
+      name: friendName,
       friendImage: `${friendImage}?=${id}`,
       balance: 0,
       id,
